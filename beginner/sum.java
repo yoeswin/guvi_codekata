@@ -6,7 +6,7 @@ public class sum
 	    try{
 		int x=sc.nextInt();
 	    	if(x==0){
-			System.out.println("Zero");    
+				System.out.println("Zero");    
 	    	}else if(x<0){
 	    		System.out.println("Negative");    
 	    	}else{
