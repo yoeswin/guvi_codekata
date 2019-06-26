@@ -5,9 +5,10 @@ public class duplicatenuminarray {
         Scanner sc = new Scanner(System.in);
         try {
             int x = sc.nextInt();
+            if (x >= 0) {
             int[] x1 = new int[x];
             ArrayList<Integer> duplicate = new ArrayList<>();
-            if (x >= 0) {
+
                 for (int temp = 0; temp < x; temp++) {
                     x1[temp] = sc.nextInt();
                 }
