@@ -13,5 +13,8 @@ public class isAlpha {
         } catch (Exception e) {
 
         }
+        finally{
+            sc.close();
+        }
     }
 }

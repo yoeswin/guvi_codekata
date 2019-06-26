@@ -15,5 +15,8 @@ public class sumnatural {
         } catch (Exception e) {
 
         }
+        finally{
+            sc.close();
+        }
     }
 }

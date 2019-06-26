@@ -12,6 +12,9 @@ public class loophello
 		}
 		catch(Exception e){
 
-		}
+        }
+        finally{
+            sc.close();
+        }
 	}
 }

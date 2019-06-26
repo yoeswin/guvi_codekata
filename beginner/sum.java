@@ -16,5 +16,8 @@ public class sum
 		catch(Exception e){
 
 		}
+		finally{
+            sc.close();
+        }
 	}
 }

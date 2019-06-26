@@ -16,7 +16,9 @@ public class vowel {
                 System.out.print("invalid");
             }
         } catch (Exception e) {
-
+        }
+        finally{
+            sc.close();
         }
     }
 }

@@ -18,5 +18,8 @@ public class largest {
         } catch (Exception e) {
 
         }
+        finally{
+            sc.close();
+        }
     }
 }

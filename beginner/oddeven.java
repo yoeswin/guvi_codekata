@@ -17,5 +17,8 @@ public class oddeven
 		catch(Exception e){
 
 		}
+		finally{
+            sc.close();
+        }
 	}
 }

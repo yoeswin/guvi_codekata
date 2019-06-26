@@ -19,5 +19,8 @@ public class leapyear {
         } catch (Exception e) {
 
         }
+        finally{
+            sc.close();
+        }
     }
 }
