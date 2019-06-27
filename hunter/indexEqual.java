@@ -12,10 +12,10 @@ public class indexEqual {
 
                 int flag = 0;
                 for (int x1 = 0; x1 < x; x1++) {
-                    if (flag == 1)
-                        System.out.print(" ");
 
                     if (array[x1] == x1) {
+                        if (flag == 1)
+                            System.out.print(" ");
                         System.out.print(array[x1]);
                         flag = 1;
                     }
