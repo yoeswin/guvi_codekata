@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class OddinEven {
     public static void main(String[] args) {
-        var sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         int number = sc.nextInt();
         int[] array = new int[number];
 
