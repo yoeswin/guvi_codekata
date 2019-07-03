@@ -9,18 +9,26 @@ public class OddinEven {
         for (int i = 0; i < number; i++) {
             array[i] = sc.nextInt();
         }
+        StringBuilder OddEven = new StringBuilder();
+
         for (int i = 0; i < number; i++) {
 
             if ((i % 2) == 0) {
                 if ((array[i] % 2) != 0) {
-                    System.out.println(array[i]);
+                    OddEven.append(String.valueOf(array[i]));
                 }
             } else {
                 if ((array[i] % 2) == 0) {
-                    System.out.println(array[i]);
+                    OddEven.append(String.valueOf(array[i]));
                 }
             }
+
+            if (!(i == (number - 1))) {
+                OddEven.append(" ");
+            }
+
         }
+        System.out.println(OddEven.toString());
         sc.close();
     }
 }
