@@ -28,7 +28,7 @@ public class OddinEven {
             }
 
         }
-        System.out.println(OddEven.toString());
+        System.out.println(OddEven);
         sc.close();
     }
 }
