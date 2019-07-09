@@ -12,6 +12,8 @@ public class RevWords {
                 temp.reverse();
                 finalWord.append(temp.toString()).append(" ");
             }
+            finalWord.setLength(finalWord.length() - 1);
+
             System.out.println(finalWord.toString());
             s.close();
 
