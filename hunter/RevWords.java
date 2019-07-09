@@ -13,11 +13,10 @@ public class RevWords {
                 finalWord.append(temp.toString()).append(" ");
             }
             System.out.println(finalWord.toString());
+            s.close();
+
         } catch (Exception e) {
 
-        } finally {
-            s.close();
         }
     }
-
 }
